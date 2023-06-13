@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinecity | Contacto</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header__nav">
+        <a href="../index.html">
+            <img class="img__logo" src="../images/logo.png" alt="Logo Cinecity">
+        </a>
+        <nav>
+            <ul class="nav__ul">
+                <li class="nav__link"><a href="../index.html">Inicio</a></li>
+                <li class="nav__link"><a href="cartelera.html">Cartelera</a></li>
+                <li class="nav__link"><a href="estrenos.html">Próximos estrenos</a></li>
+                <li class="nav__link"><a href="precios.html">Precios</a></li>
+                <li class="nav__link"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <header>
+                <h1>Contáctanos</h1>
+            </header>
+            <form action="">
+                <div>
+                    <label for="nombre">Nombre completo (*) </label>
+                    <input type="text" name="nombre" placeholder="Escriba su nombre..." required>
+                </div>
+                <div>
+                    <label for="email">Correo electrónico (*) </label>
+                    <input type="email" name="email" placeholder="ejemplo@email.com" required>
+                </div>
+                <div>
+                    <label for="telefono">Teléfono </label>
+                    <input type="number" name="telefono">
+                </div>
+                <div>
+                    <label for="consulta">Consulta (*) </label>
+                    <textarea name="consulta" cols="30" rows="10" placeholder="Escriba su mensaje..." required></textarea>
+                </div>
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar Consulta">
+            </form>
+            <p>
+                <strong>El procesamiento de su consulta puede tomar hasta 48hs, sepa disculpar las molestias. Muchas gracias.</strong>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__copyright">
+            <p>&copy;Copyright 2023 Cinecity | Natalia Funes. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

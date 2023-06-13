@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*
+ * Estilos encabezado principal
+ */
+.header__nav {
+    background-color: #c30400;
+    padding: 1rem;
+}
+
+.nav__ul {
+    list-style: none;
+}
+
+.nav__link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*
+ *
+ */
+.article__title {
+    color: #c30400;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 10px;
+    padding: 0px 15px;
+}
+
+/*
+ * Estilos imagenes
+ */
+img {
+    max-width: 100%;
+}
+
+.img__logo {
+    width: 250px;
+    height: 125px;
+}
+
+.img__banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.img__portada {
+    width: 200px;
+    height: 300px;
+    border: solid 1px #000000;
+    margin: 15px;
+}
+
+/*
+ * Estilos footer
+ */
+footer {
+    background-color: #000000;
+}
+
+.footer__copyright {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
