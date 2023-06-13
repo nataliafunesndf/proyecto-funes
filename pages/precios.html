@@ -19,50 +19,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header__nav">
-        <a href="../index.html">
-            <img class="img__logo" src="../images/logo.png" alt="Logo Cinecity">
-        </a>
-        <nav>
+    <header>
+        <div class="brand">
+            <a href="../index.html">
+                <img class="brand__logo" src="../images/logo.png" alt="Logo Cinecity">
+            </a>
+        </div>
+        <nav class="nav">
             <ul class="nav__ul">
-                <li class="nav__link"><a href="../index.html">Inicio</a></li>
-                <li class="nav__link"><a href="cartelera.html">Cartelera</a></li>
-                <li class="nav__link"><a href="estrenos.html">Próximos estrenos</a></li>
-                <li class="nav__link"><a href="precios.html">Precios</a></li>
-                <li class="nav__link"><a href="contacto.html">Contacto</a></li>
+                <li class="nav__item"><a class="nav__link" href="../index.html">Inicio</a></li>
+                <li class="nav__item"><a class="nav__link" href="cartelera.html">Cartelera</a></li>
+                <li class="nav__item"><a class="nav__link" href="estrenos.html">Próximos estrenos</a></li>
+                <li class="nav__item"><a class="nav__link--active" href="precios.html">Precios</a></li>
+                <li class="nav__item"><a class="nav__link" href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <header>
-                <h1>Nuestros precios</h1>
-            </header>
-            <table>
-                <thead>
-                    <th>
-                        <td></td>
-                        <td>Precios vigentes</td>
-                    </th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Entradas 2D</td>
-                        <td><strong>Todos los días: </strong> $1.300 </td>
-                    </tr>
-                    <tr>
-                        <td>Entradas 3D</td>
-                        <td><strong>Todos los días: </strong> $1.500 </td>
-                    </tr>
-                    <tr>
-                        <td>Formas de Pago</td>
-                        <td>Efectivo, tarjetas de débito y crédito <em>(Visa, Mastercard, Tarjeta Naranja, Maestro, American Express, Cabal)</em></td>
-                    </tr>
-                    <tr>
-                        <td>Información General</td>
-                        <td>Los menores abonan entrada desde los 3 años cumplidos.</td>
-                    </tr>
-                </tbody>
+        <section class="prices">
+            <h1 class="prices__title">Nuestros precios</h1>
+            <table class="tprices">
+                <tr>
+                    <th></th>
+                    <th>Precios vigentes</th>
+                </tr>
+                <tr>
+                    <td class="tprices__title">Entradas 2D</td>
+                    <td><span class="bolder">Todos los días: </span>$1.300</td>
+                </tr>
+                <tr>
+                    <td class="tprices__title">Entradas 3D</td>
+                    <td><span class="bolder">Todos los días: </span>$1.500</td>
+                </tr>
+                <tr>
+                    <td class="tprices__title">Formas de pago</td>
+                    <td>Efectivo, tarjetas de débito y crédito <span class="cursive">(Visa, Mastercard, Tarjeta Naranja, Maestro, American Express, Cabal)</span></td>
+                </tr>
+                <tr>
+                    <td class="tprices__title">Información general</td>
+                    <td>Los menores abonan entrada desde los 3 años cumplidos.</td>
+                </tr>
             </table>
         </section>
     </main>

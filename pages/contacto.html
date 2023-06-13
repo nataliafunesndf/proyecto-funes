@@ -19,32 +19,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header__nav">
-        <a href="../index.html">
-            <img class="img__logo" src="../images/logo.png" alt="Logo Cinecity">
-        </a>
-        <nav>
+    <header>
+        <div class="brand">
+            <a href="../index.html">
+                <img class="brand__logo" src="../images/logo.png" alt="Logo Cinecity">
+            </a>
+        </div>
+        <nav class="nav">
             <ul class="nav__ul">
-                <li class="nav__link"><a href="../index.html">Inicio</a></li>
-                <li class="nav__link"><a href="cartelera.html">Cartelera</a></li>
-                <li class="nav__link"><a href="estrenos.html">Próximos estrenos</a></li>
-                <li class="nav__link"><a href="precios.html">Precios</a></li>
-                <li class="nav__link"><a href="contacto.html">Contacto</a></li>
+                <li class="nav__item"><a class="nav__link" href="../index.html">Inicio</a></li>
+                <li class="nav__item"><a class="nav__link" href="cartelera.html">Cartelera</a></li>
+                <li class="nav__item"><a class="nav__link" href="estrenos.html">Próximos estrenos</a></li>
+                <li class="nav__item"><a class="nav__link" href="precios.html">Precios</a></li>
+                <li class="nav__item"><a class="nav__link--active" href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <header>
-                <h1>Contáctanos</h1>
-            </header>
+        <section class="contact-us">
+            <h1 class="contact-us__title">Contáctanos</h1>
             <form action="">
                 <div>
-                    <label for="nombre">Nombre completo (*) </label>
+                    <label class="bolder" for="nombre">Nombre completo (*) </label>
                     <input type="text" name="nombre" placeholder="Escriba su nombre..." required>
                 </div>
                 <div>
-                    <label for="email">Correo electrónico (*) </label>
+                    <label class="bolder" for="email">Correo electrónico (*) </label>
                     <input type="email" name="email" placeholder="ejemplo@email.com" required>
                 </div>
                 <div>
@@ -52,14 +52,14 @@
                     <input type="number" name="telefono">
                 </div>
                 <div>
-                    <label for="consulta">Consulta (*) </label>
+                    <label class="bolder" for="consulta">Consulta (*) </label>
                     <textarea name="consulta" cols="30" rows="10" placeholder="Escriba su mensaje..." required></textarea>
                 </div>
                 <input type="reset" value="Limpiar">
                 <input type="submit" value="Enviar Consulta">
             </form>
-            <p>
-                <strong>El procesamiento de su consulta puede tomar hasta 48hs, sepa disculpar las molestias. Muchas gracias.</strong>
+            <p class="contact-us__info">
+                <span class="bolder">El procesamiento de su consulta puede tomar hasta 48hs, sepa disculpar las molestias. Muchas gracias.</span>
             </p>
         </section>
     </main>

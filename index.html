@@ -19,52 +19,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header__nav">
-        <a href="index.html">
-            <img class="img__logo" src="images/logo.png" alt="Logo Cinecity">
-        </a>
-        <nav>
+    <header>
+        <div class="brand">
+            <a href="index.html">
+                <img class="brand__logo" src="images/logo.png" alt="Logo Cinecity">
+            </a>
+        </div>
+        <nav class="nav">
             <ul class="nav__ul">
-                <li class="nav__link"><a href="index.html">Inicio</a></li>
-                <li class="nav__link"><a href="pages/cartelera.html">Cartelera</a></li>
-                <li class="nav__link"><a href="pages/estrenos.html">Próximos estrenos</a></li>
-                <li class="nav__link"><a href="pages/precios.html">Precios</a></li>
-                <li class="nav__link"><a href="pages/contacto.html">Contacto</a></li>
+                <li class="nav__item"><a class="nav__link--active" href="index.html">Inicio</a></li>
+                <li class="nav__item"><a class="nav__link" href="pages/cartelera.html">Cartelera</a></li>
+                <li class="nav__item"><a class="nav__link" href="pages/estrenos.html">Próximos estrenos</a></li>
+                <li class="nav__item"><a class="nav__link" href="pages/precios.html">Precios</a></li>
+                <li class="nav__item"><a class="nav__link" href="pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <header>
-                <img src="images/banner.png" alt="Cinecity">
-            </header>
-            <article>
-                <h2 class="article__title">Estrenos de la semana</h2>
-                <div>
-                    <img class="img__portada" src="images/cartelera/no-descansaras.jpg" alt="No descansaras">
-                    <img class="img__portada" src="images/cartelera/objetos.jpg" alt="Objetos">
-                    <img class="img__portada" src="images/cartelera/rapidos-y-furiosos-x.jpg" alt="Rápidos y furiosos 10">
+            <div class="banner">
+                <img src="images/banner.png" alt="Las mejores salas de cine">
+            </div>
+            <article class="movies">
+                <h2 class="movies__title">Estrenos de la semana</h2>
+                <div class="movies__poster">
+                    <div class="poster__img">
+                        <img src="images/cartelera/no-descansaras.jpg" alt="No descansaras">
+                    </div>
+                    <div class="poster__img">
+                        <img src="images/cartelera/objetos.jpg" alt="Objetos">
+                    </div>
+                    <div class="poster__img">
+                        <img src="images/cartelera/rapidos-y-furiosos-x.jpg" alt="Rápidos y furiosos 10">
+                    </div>
                 </div>
-                <hr>
             </article>
-            <article>
-                <h2 class="article__title">Ventas anticipadas</h2>
-                <div>
-                    <img class="img__portada" src="images/proximamente/la-sirenita.jpeg" alt="La sirenita">
-                    <img class="img__portada" src="images/proximamente/spider-man-a-traves-del-spider-verso.jpg" alt="Spider-man: A través del Spider-verso">
-                    <img class="img__portada" src="images/proximamente/transformers-eldespertar-de-las-bestias.png" alt="Transformers: El despertar de las bestias">
+            <article class="movies">
+                <h2 class="movies__title">Ventas anticipadas</h2>
+                <div class="movies__poster">
+                    <div class="poster__img">
+                        <img src="images/proximamente/la-sirenita.jpg" alt="La sirenita">
+                    </div>
+                    <div class="poster__img">
+                        <img src="images/proximamente/spider-man-a-traves-del-spider-verso.jpg" alt="Spider-man: A través del Spider-verso">
+                    </div>
+                    <div class="poster__img">
+                        <img src="images/proximamente/transformers-eldespertar-de-las-bestias.png" alt="Transformers: El despertar de las bestias">
+                    </div>
                 </div>
-                <hr>
             </article>
-            <article>
-                <h2 class="article__title">Próximamente</h2>
-                <div>
-                    <img class="img__portada" src="images/proximamente/la-sirenita.jpeg" alt="La sirenita">
-                    <img class="img__portada" src="images/proximamente/mi-papa-es-un-peligro.jpg" alt="Mi papá es un peligro">
-                    <img class="img__portada" src="images/proximamente/the-boogeyman.jpg" alt="Boogeyman, tu miedo es real">
-                    <img class="img__portada" src="images/proximamente/disco-de-oro.png" alt="Disco de oro">
-                    <img class="img__portada" src="images/proximamente/spider-man-a-traves-del-spider-verso.jpg" alt="Spider-man: A través del Spider-verso">
-                    <img class="img__portada" src="images/proximamente/transformers-eldespertar-de-las-bestias.png" alt="Transformers: El despertar de las bestias">
+            <article class="movies">
+                <h2 class="movies__title">Próximamente</h2>
+                <div class="movies__poster">
+                    <div class="poster__img">
+                        <img src="images/proximamente/la-sirenita.jpg" alt="La sirenita">
+                    </div>
+                    <div class="poster__img">
+                        <img src="images/proximamente/mi-papa-es-un-peligro.jpg" alt="Mi papá es un peligro">
+                    </div>
+                    <div class="poster__img">
+                        <img src="images/proximamente/the-boogeyman.jpg" alt="Boogeyman, tu miedo es real">
+                    </div>
+                    <div class="poster__img">
+                        <img src="images/proximamente/disco-de-oro.png" alt="Disco de oro">
+                    </div>
+                    <div class="poster__img">
+                        <img src="images/proximamente/spider-man-a-traves-del-spider-verso.jpg" alt="Spider-man: A través del Spider-verso">
+                    </div>
+                    <div class="poster__img">
+                        <img src="images/proximamente/transformers-eldespertar-de-las-bestias.png" alt="Transformers: El despertar de las bestias">
+                    </div>
                 </div>
             </article>
         </section>
